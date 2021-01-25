@@ -13,20 +13,29 @@
     <ul class="sidebar">
         <p>CORE</p>
         <li><a class="active" href="#Dashboards">Dashboards</a></li>
-        <p>APP VIEWS</p>
-        <li><a href="#pages">Pages</a></li>
-        <li><a href="#account">Account</a></li>
-        <li><a href="#authentication">Authentication</a>
-            <ul>
-                <li><a href="#basic">Basic</a></li>
-                <ul>
-                    <li><a href="#login">Login</a></li>
-                    <li><a href="#register">Register</a></li>
-                    <li><a href="#forgot-password">Forgot Password</a></li>
-                </ul>
-                <li><a href="#social">Social</a></li>
+        <p>Pages</p>
+        <li>Account</li>
+            <ul id="parent1">
+                <li id="test-id">
+                    Authentication
+                    <ul id="ul" class="hide">
+                        <li>
+                            Basic
+                            <ul id="reach" class="hide">
+                                <li id="login">
+                                    <a class="hide" id="login2" href="#login">Login</a>
+                                </li>
+                                <li><a href="#register">Register</a></li>
+                                <li><a href="#forgot-password">Forgot Password</a></li>
+                            </ul>
+                        </li>    
+                        <li><a href="#social">Social</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a id="auth" href="#authentication2">Authentication2</a>
+                </li>
             </ul>
-        </li>
 
 
     </ul>

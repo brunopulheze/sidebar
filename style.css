@@ -3,6 +3,17 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
 .sidebar {
     margin: 0;
     padding: 0;
