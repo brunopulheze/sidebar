@@ -6,17 +6,25 @@ body {
 .sidebar {
     margin: 0;
     padding: 0;
-    padding-left: 20px;
+    
     width: 200px;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
-    
+}
+
+ul, p {
+    padding-left: 15px;
 }
 
 ul, li {
     list-style-type: none;
+    
+}
+
+#sublist, #second-sublist {
+    display: none;
 }
 
 .sidebar a {

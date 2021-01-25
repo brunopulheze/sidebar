@@ -16,12 +16,12 @@
         <p>APP VIEWS</p>
         <li><a href="#pages">Pages</a></li>
         <li><a href="#account">Account</a></li>
-        <li><a href="#authentication">Authentication</a>
-            <ul>
-                <li><a href="#basic">Basic</a></li>
-                <ul>
-                    <li><a href="#login">Login</a></li>
-                    <li><a href="#register">Register</a></li>
+        <li><a onclick="showList()" href="#authentication">Authentication</a>
+            <ul id="sublist">
+                <li id="basic"><a onclick="showSecondList()" href="#basic">Basic</a></li>
+                <ul id="second-sublist">
+                    <li><a id="login" href="#login">Login</a></li>
+                    <li ><a href="#register">Register</a></li>
                     <li><a href="#forgot-password">Forgot Password</a></li>
                 </ul>
                 <li><a href="#social">Social</a></li>
